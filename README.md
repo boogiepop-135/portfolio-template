@@ -47,7 +47,7 @@ Blog - https://www.chetanverma.com/blog/how-to-build-a-portfolio-website-using-n
 
 Quickes way to deploy this repo - 
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/boogiepop-135/portfolio-template)
 
 
 ### How To Contribute - 
