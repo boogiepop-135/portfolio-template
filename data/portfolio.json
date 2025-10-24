@@ -1,1 +1,262 @@
-{"name":"Boogiepop135","headerTaglineOne":"Hi there 👋","headerTaglineTwo":"I'm Levi ","headerTaglineThree":"Designer and Full Stack Developer","headerTaglineFour":"based in Querétaro, Mexico.","showCursor":false,"showBlog":true,"darkMode":false,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/boogiepop-135"},{"id":"2","title":"LinkedIn","link":"www.linkedin.com/in/levi-eduardo-villareal-argueta-4084571b6"},{"id":"5","title":"Email","link":"levi.eduardo2024@gmail.com"},{"id":"1798d509-d556-4b77-8ab9-13cb61423dfe","title":"Telefono- +524421056597","link":""}],"projects":[{"id":"1","title":"Stars Wars Blog","description":"Web Design","imageSrc":"https://i.ibb.co/vvcyc2BB/Captura-de-pantalla-2025-04-19-a-la-s-2-57-09-p-m.png","url":"https://blog-de-stars-wars.vercel.app/"},{"id":"2","title":"App rick and morty api","description":"App android-Flutter","imageSrc":"https://i.ibb.co/rK82vh01/Captura-de-pantalla-2025-04-19-a-la-s-4-14-53-p-m.png","url":"https://github.com/boogiepop-135/RickYMortyAPP"},{"id":"3","title":"Lista de contactos","description":"uso de api","imageSrc":"https://i.ibb.co/BVt66B0j/Captura-de-pantalla-2025-04-19-a-la-s-4-21-40-p-m.png","url":"https://lista-de-contactos-xi.vercel.app/"},{"id":"4","title":"Base de datos, instagram","description":"Backend","imageSrc":"https://i.ibb.co/C5N7Bpb8/Captura-de-pantalla-2025-04-19-a-la-s-4-30-27-p-m.png","url":"https://github.com/4GeeksAcademy/Boogiepop135BaseDeDatosInstagram"},{"id":"5","title":"Landing Page","description":"Development","imageSrc":"https://i.ibb.co/whTs7v4d/Captura-de-pantalla-2025-04-19-a-la-s-4-38-20-p-m.png","url":"https://github.com/4GeeksAcademy/-boogiepop135-landing-page"},{"id":"6","title":"diseño de api","description":"api","imageSrc":"https://i.ibb.co/5gtKf9Bg/Captura-de-pantalla-2025-04-19-a-la-s-4-44-35-p-m.png","url":"https://github.com/4GeeksAcademy/Boogiepop135APIFamily"}],"services":[{"id":"4","title":"React","description":"\"Desarrollo aplicaciones web dinámicas y modernas con React, creando interfaces interactivas y eficientes. Desde listas de contactos hasta blogs temáticos, combino mi experiencia en frontend con un enfoque creativo inspirado en la química para transformar ideas en soluciones digitales impactantes. 🚀🧪\""},{"id":"49311377-340e-464f-8117-a74d306dcfe9","title":"Python","description":"\"Construyo soluciones backend robustas con Python, desarrollando APIs escalables, sistemas de gestión de datos y aplicaciones eficientes que potencian tu proyecto en el entorno digital. 🚀🐍\""},{"id":"ad0940b3-87e6-4432-8b03-cd4ffdaa09b3","title":"Api´s","description":"\"Implemento APIs eficientes y personalizadas que integran tus sistemas, agilizan procesos y aseguran una comunicación fluida entre aplicaciones, elevando la funcionalidad de tu proyecto digital. 🚀🔗\""},{"id":"c65e8d4c-0e18-4441-9cee-f1850c552cfa","title":"JavaScript","description":"\"Creo experiencias frontend interactivas con JavaScript, desarrollando funcionalidades dinámicas, animaciones fluidas y aplicaciones versátiles que dan vida a tus ideas digitales. 🚀💻\""}],"aboutpara":"\"Soy Levi Eduardo, un desarrollador full stack apasionado por transformar ideas en soluciones digitales impactantes. Con formación en el bootcamp de 4Geeks Academy (Dic 2024 - May 2025), domino tecnologías como HTML, CSS, JavaScript, React, Python, Flask, APIs, SQL y Bases de Datos. Mi interés por la química me inspira a abordar desafíos con un enfoque analítico y creativo, creando aplicaciones web dinámicas y eficientes que conectan y destacan. 🚀🧪\"","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"December 2024","type":"Full Time","position":"Developer web","bullets":"full stack"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"","type":"","position":"","bullets":""}],"education":{"universityName":"Universidad Tecnologica de queretaro","universityDate":"2016-2020","universityPara":"Egresado de TSU en Química"},"languages":["Javascript","HTML5","CSS","Python","Dart"],"frameworks":["React","NodeJs","Flask","Flutter"],"others":["Figma","AWS"]}}
+{
+  "name": "Levi Eduardo Villarreal",
+  "headerTaglineOne": "Hola 👋",
+  "headerTaglineTwo": "Soy Levi Eduardo",
+  "headerTaglineThree": "Desarrollador Full Stack",
+  "headerTaglineFour": "basado en Querétaro, México.",
+  "showCursor": false,
+  "showBlog": true,
+  "darkMode": false,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "GitHub",
+      "link": "https://github.com/boogiepop-135"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/levi-eduardo-villareal-argueta-4084571b6"
+    },
+    {
+      "id": "3",
+      "title": "Email",
+      "link": "levi.eduardo2024@gmail.com"
+    },
+    {
+      "id": "4",
+      "title": "Teléfono",
+      "link": "+524421056597"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "JobFinder",
+      "description": "Desarrollo Full Stack",
+      "dates": "Abril 2025 - Mayo 2025",
+      "imageSrc": "https://i.ibb.co/vvcyc2BB/Captura-de-pantalla-2025-04-19-a-la-s-2-57-09-p-m.png",
+      "url": "https://github.com/boogiepop-135/JobFinder",
+      "github": "https://github.com/boogiepop-135/JobFinder",
+      "bullets": [
+        "Implementé un sistema con JWT y Flask para login y recuperación de contraseña, asegurando acceso seguro de usuarios.",
+        "Diseñé una base de datos relacional (SQL) sobre candidatos y empresas, optimizando consultas y rendimiento.",
+        "Desarrollé front-end con React y JavaScript para formularios de registro y perfiles, mejorando experiencia de usuario.",
+        "Creé lógica con Python y Flask para comunicación fluida entre front-end y base de datos, gestionando cuentas."
+      ],
+      "technologies": ["React", "JavaScript", "Python", "Flask", "SQL", "JWT", "HTML", "CSS"]
+    },
+    {
+      "id": "2",
+      "title": "Blog de Star Wars",
+      "description": "Desarrollo web full stack",
+      "dates": "Marzo 2025 - Abril 2025",
+      "imageSrc": "https://i.ibb.co/vvcyc2BB/Captura-de-pantalla-2025-04-19-a-la-s-2-57-09-p-m.png",
+      "url": "https://blog-de-stars-wars.vercel.app/",
+      "github": "https://github.com/boogiepop-135/Blog-Star-Wars",
+      "bullets": [
+        "Desarrollé el front-end con React.js y Bootstrap para una interfaz responsiva y una experiencia de usuario fluida.",
+        "Implementé una API REST en Python para gestionar solicitudes de datos y entregar información estructurada sobre personajes, optimizando tiempos de respuesta.",
+        "Integré una base de datos SQL para almacenar y consultar eficientemente la información consumida por el front-end, facilitando la escalabilidad del contenido.",
+        "Conecté el backend con el front-end usando JavaScript para automatizar el flujo de datos."
+      ],
+      "technologies": ["React.js", "Bootstrap", "Python", "API REST", "SQL", "JavaScript"]
+    },
+    {
+      "id": "3",
+      "title": "Chatbot Mullblue",
+      "description": "Desarrollo de IA y Automatización",
+      "dates": "Enero 2025 - Marzo 2025",
+      "imageSrc": "https://i.ibb.co/C5N7Bpb8/Captura-de-pantalla-2025-04-19-a-la-s-4-30-27-p-m.png",
+      "url": "https://mullblue.com",
+      "bullets": [
+        "Desarrollo de chatbot inteligente para automatización de procesos empresariales usando tecnologías de IA y machine learning.",
+        "Implementación de sistema de procesamiento de lenguaje natural (NLP) para mejorar la interacción usuario-chatbot.",
+        "Integración de APIs externas para funcionalidades avanzadas de automatización y respuesta inteligente.",
+        "Optimización de rendimiento del chatbot para manejar múltiples conversaciones simultáneas.",
+        "Desarrollo de panel de administración para monitoreo y gestión del chatbot en tiempo real."
+      ],
+      "technologies": ["Python", "Machine Learning", "NLP", "APIs", "React", "Node.js", "IA"]
+    },
+    {
+      "id": "4",
+      "title": "CRM Interno",
+      "description": "Desarrollo Full Stack",
+      "dates": "Mayo 2025 - Presente",
+      "imageSrc": "https://i.ibb.co/BVt66B0j/Captura-de-pantalla-2025-04-19-a-la-s-4-21-40-p-m.png",
+      "url": "https://github.com/boogiepop-135/CRM-Interno",
+      "github": "https://github.com/boogiepop-135/CRM-Interno",
+      "bullets": [
+        "Desarrollé un CRM interno con inicio de sesión seguro y gestión de clientes usando React, JavaScript, Python, Flask y SQL.",
+        "Implementé funcionalidades para la administración de clientes y construí una landing page responsive para un cliente.",
+        "Construí el backend del CRM con Python y Flask (conectividad SQL), y diseñé la interfaz de usuario para una experiencia intuitiva.",
+        "Gestioné el ciclo completo de desarrollo freelance, desde la conceptualización hasta la implementación."
+      ],
+      "technologies": ["React", "JavaScript", "Python", "Flask", "SQL", "HTML", "CSS"]
+    },
+    {
+      "id": "5",
+      "title": "Help Desk Platform",
+      "description": "Desarrollo Full Stack",
+      "dates": "Julio 2025 - Presente",
+      "imageSrc": "https://i.ibb.co/whTs7v4d/Captura-de-pantalla-2025-04-19-a-la-s-4-38-20-p-m.png",
+      "url": "https://github.com/boogiepop-135/Help-Desk-Platform",
+      "github": "https://github.com/boogiepop-135/Help-Desk-Platform",
+      "bullets": [
+        "Desarrollo de plataforma interna de Help Desk (React, Flask) con panel de administración y bot para automatizar la gestión de tickets de soporte.",
+        "Implementación de sistema de tickets automatizado para mejorar la eficiencia del soporte técnico.",
+        "Integración con sistemas existentes para unificar la gestión de incidencias y solicitudes de soporte."
+      ],
+      "technologies": ["React", "Flask", "Python", "SQL", "Bootstrap", "APIs"]
+    },
+    {
+      "id": "6",
+      "title": "Landing Page Responsive",
+      "description": "Desarrollo Frontend",
+      "dates": "Mayo 2025 - Presente",
+      "imageSrc": "https://i.ibb.co/5gtKf9Bg/Captura-de-pantalla-2025-04-19-a-la-s-4-44-35-p-m.png",
+      "url": "https://github.com/boogiepop-135/Landing-Page-Responsive",
+      "github": "https://github.com/boogiepop-135/Landing-Page-Responsive",
+      "bullets": [
+        "Implementé funcionalidades para la administración de clientes y construí una landing page responsive para un cliente con React, JavaScript, HTML y CSS.",
+        "Diseño responsivo optimizado para diferentes dispositivos y navegadores.",
+        "Integración de animaciones y efectos visuales para mejorar la experiencia del usuario."
+      ],
+      "technologies": ["React", "JavaScript", "HTML", "CSS", "Responsive Design"]
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "React.js",
+      "description": "Desarrollo aplicaciones web dinámicas y modernas con React, creando interfaces interactivas y eficientes. Experiencia en formularios de registro, perfiles de usuario y aplicaciones responsivas que mejoran la experiencia del usuario."
+    },
+    {
+      "id": "2",
+      "title": "Python & Flask",
+      "description": "Construyo soluciones backend robustas con Python y Flask, desarrollando APIs escalables, sistemas de gestión de datos y aplicaciones eficientes. Experiencia en JWT, autenticación segura y comunicación fluida entre front-end y base de datos."
+    },
+    {
+      "id": "3",
+      "title": "APIs REST",
+      "description": "Implemento APIs eficientes y personalizadas que integran sistemas, agilizan procesos y aseguran una comunicación fluida entre aplicaciones. Experiencia en optimización de tiempos de respuesta y entrega de información estructurada."
+    },
+    {
+      "id": "4",
+      "title": "JavaScript",
+      "description": "Creo experiencias frontend interactivas con JavaScript, desarrollando funcionalidades dinámicas, automatización de flujos de datos y aplicaciones versátiles que conectan front-end y backend de manera eficiente."
+    },
+    {
+      "id": "5",
+      "title": "SQL & Bases de Datos",
+      "description": "Diseño y optimizo bases de datos relacionales SQL, creando esquemas eficientes para candidatos, empresas y sistemas de gestión. Experiencia en consultas optimizadas y gestión de rendimiento de bases de datos."
+    },
+    {
+      "id": "6",
+      "title": "HTML & CSS",
+      "description": "Desarrollo interfaces web responsivas y modernas usando HTML y CSS, creando experiencias de usuario fluidas y atractivas. Integración con frameworks como Bootstrap para interfaces responsivas."
+    }
+  ],
+  "aboutpara": "Desarrollador Full Stack con formación en 4Geeks Academy y experiencia en control de calidad y procesos técnicos. Enfocado en crear soluciones eficientes con React, Flask y SQL, integrando pensamiento analítico y resolución de problemas en entornos web. Mi formación en Ingeniería Química me aporta una perspectiva única para abordar desafíos técnicos con metodología científica y creatividad.",
+  "resume": {
+    "tagline": "👋 Soy un desarrollador Full Stack apasionado por crear soluciones digitales eficientes.",
+    "description": "He desarrollado aplicaciones web completas que conectan usuarios con empresas, automatizan procesos y optimizan la experiencia digital. Experto en React, JavaScript, Python, Flask y tecnologías web modernas.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "Julio 2025 - Presente",
+        "type": "Tiempo Completo",
+        "position": "Analista de IT",
+        "company": "San Cosme Orgánico",
+        "location": "Querétaro, México",
+        "bullets": [
+          "Gestión de catálogos en sistemas POS (EMC) y la suite Oracle Simphony (Inventory, RA), asegurando la integridad de datos de ventas e inventario.",
+          "Administración de Microsoft 365, gestionando identidades (Entra ID), automatización de flujos (Power Automate) y colaboración (SharePoint).",
+          "Desarrollo full-stack de un chatbot (React, Node.js, Python) para automatizar la atención al cliente y la resolución de incidencias de facturación.",
+          "Desarrollo de plataforma interna de Help Desk (React, Flask) con panel de administración y bot para automatizar la gestión de tickets de soporte.",
+          "Resolución de incidencias críticas de integración (Oracle, Deliverect, Uber Eats), corrigiendo discrepancias en datos de facturación.",
+          "Soporte técnico Nivel 1 y 2, ejecutando mantenimiento preventivo/correctivo de hardware y gestionando el inventario de activos de TI.",
+          "Diseño y propuesta de arquitectura de red para la implementación de soluciones VPN y NaaS (Network as a Service) enfocadas en seguridad."
+        ]
+      },
+      {
+        "id": "2",
+        "dates": "Mayo 2025 - Presente",
+        "type": "Freelance",
+        "position": "Desarrollador de Software",
+        "company": "Freelance",
+        "location": "México",
+        "bullets": [
+          "Desarrollé un CRM interno con inicio de sesión seguro y gestión de clientes usando React, JavaScript, Python, Flask y SQL, optimizando la experiencia de usuario.",
+          "Implementé funcionalidades para la administración de clientes y construí una landing page responsive para un cliente con React, JavaScript, HTML y CSS.",
+          "Construí el backend del CRM con Python y Flask (conectividad SQL), y diseñé la interfaz de usuario de ambos proyectos para una experiencia intuitiva.",
+          "Gestioné el ciclo completo de desarrollo freelance, desde la conceptualización hasta la implementación, enfocándome en soluciones eficientes y usabilidad."
+        ]
+      },
+      {
+        "id": "3",
+        "dates": "Enero 2025 - Marzo 2025",
+        "type": "Proyecto Específico",
+        "position": "Desarrollador de Chatbot",
+        "company": "Mullblue",
+        "location": "Remoto",
+        "bullets": [
+          "Desarrollo de chatbot inteligente para automatización de procesos empresariales usando tecnologías de IA y machine learning.",
+          "Implementación de sistema de procesamiento de lenguaje natural (NLP) para mejorar la interacción usuario-chatbot.",
+          "Integración de APIs externas para funcionalidades avanzadas de automatización y respuesta inteligente.",
+          "Optimización de rendimiento del chatbot para manejar múltiples conversaciones simultáneas.",
+          "Desarrollo de panel de administración para monitoreo y gestión del chatbot en tiempo real."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": "1",
+        "universityName": "4Geeks Academy",
+        "universityDate": "Diciembre 2024 - Mayo 2025",
+        "universityLocation": "Remoto, LATAM",
+        "universityPara": "Certificación Desarrollo de Software Full Stack"
+      },
+      {
+        "id": "2",
+        "universityName": "Universidad Tecnológica de Querétaro",
+        "universityDate": "Septiembre 2020 - Febrero 2023",
+        "universityLocation": "Querétaro, México",
+        "universityPara": "Ingeniería Química"
+      }
+    ],
+    "languages": [
+      "Español - Nativo",
+      "Inglés - B1 Intermedio",
+      "Francés - B1 Intermedio"
+    ],
+    "frameworks": [
+      "React.js",
+      "Flask",
+      "Bootstrap",
+      "SQLAlchemy"
+    ],
+    "programmingLanguages": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "technologies": [
+      "JSON Web Token (JWT)",
+      "RESTful APIs",
+      "Git",
+      "GitHub",
+      "Jest"
+    ],
+    "others": [
+      "Microsoft 365",
+      "Oracle Simphony",
+      "Power Automate",
+      "SharePoint",
+      "Entra ID"
+    ]
+  }
+}
