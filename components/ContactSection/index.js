@@ -83,7 +83,7 @@ const ContactSection = ({ socials }) => {
         {/* Call to action */}
         <div className="text-center mt-12">
           <p className="text-lg text-gray-800 dark:text-gray-200 mb-6 italic">
-            "La mejor manera de predecir el futuro es creándolo"
+            &ldquo;La mejor manera de predecir el futuro es creándolo&rdquo;
           </p>
           <button className="px-8 py-4 bg-blue-600 text-white rounded-full font-bold text-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
             ¡Empecemos a crear el futuro juntos!
