@@ -1,9 +1,9 @@
 {
   "name": "Levi Eduardo Villarreal",
-  "headerTaglineOne": "Hola 👋",
-  "headerTaglineTwo": "Soy Levi Eduardo",
-  "headerTaglineThree": "Desarrollador Full Stack",
-  "headerTaglineFour": "basado en Querétaro, México.",
+  "headerTaglineOne": "Hola / Hello",
+  "headerTaglineTwo": "Soy Levi Eduardo Villarreal Argueta / I am Levi Eduardo Villarreal Argueta",
+  "headerTaglineThree": "Desarrollador Full Stack y Especialista en Sistemas/Ciberseguridad",
+  "headerTaglineFour": "based in Queretaro, Mexico.",
   "showCursor": false,
   "showBlog": true,
   "darkMode": false,
@@ -33,51 +33,50 @@
   "projects": [
     {
       "id": "1",
-      "title": "JobFinder",
-      "description": "Desarrollo Full Stack",
-      "dates": "Abril 2025 - Mayo 2025",
+      "title": "Automatizacion de Soporte y Flujos Operativos | Mullblue",
+      "description": "Full Stack Development + IT Operations",
+      "dates": "Enero 2024 - Junio 2025",
       "imageSrc": "https://i.ibb.co/vvcyc2BB/Captura-de-pantalla-2025-04-19-a-la-s-2-57-09-p-m.png",
-      "url": "https://github.com/boogiepop-135/JobFinder",
-      "github": "https://github.com/boogiepop-135/JobFinder",
+      "url": "https://mullblue.com",
+      "github": "https://github.com/boogiepop-135",
       "bullets": [
-        "Implementé un sistema con JWT y Flask para login y recuperación de contraseña, asegurando acceso seguro de usuarios.",
-        "Diseñé una base de datos relacional (SQL) sobre candidatos y empresas, optimizando consultas y rendimiento.",
-        "Desarrollé front-end con React y JavaScript para formularios de registro y perfiles, mejorando experiencia de usuario.",
-        "Creé lógica con Python y Flask para comunicación fluida entre front-end y base de datos, gestionando cuentas."
+        "ES: Lidere la digitalizacion de flujos de soporte y operaciones con herramientas Full Stack para estandarizar tareas y reducir friccion operativa. EN: I led support and operations workflow digitization with Full Stack tooling to standardize tasks and reduce operational friction.",
+        "ES: Implemente automatizaciones y paneles internos que mejoraron trazabilidad, tiempos de atencion y coordinacion entre areas. EN: I implemented automations and internal dashboards that improved traceability, response times, and cross-team coordination.",
+        "ES: Administre sistemas y bases de datos relacionales con enfoque en estabilidad y continuidad del servicio. EN: I managed systems and relational databases with a strong focus on service stability and continuity.",
+        "ES: Resultado medible: reduccion del 60% en tiempos de respuesta del equipo. EN: Measurable outcome: 60% reduction in team response times."
       ],
-      "technologies": ["React", "JavaScript", "Python", "Flask", "SQL", "JWT", "HTML", "CSS"]
+      "technologies": ["React", "JavaScript", "Python", "Flask", "SQL", "Automation", "IT Support", "Operational Analytics"]
     },
     {
       "id": "2",
-      "title": "Blog de Star Wars",
-      "description": "Desarrollo web full stack",
-      "dates": "Marzo 2025 - Abril 2025",
+      "title": "Continuidad Operativa y Seguridad de Datos Oracle | San Cosme",
+      "description": "Systems Administration + Cybersecurity",
+      "dates": "Julio 2025 - Presente",
       "imageSrc": "https://i.ibb.co/vvcyc2BB/Captura-de-pantalla-2025-04-19-a-la-s-2-57-09-p-m.png",
-      "url": "https://blog-de-stars-wars.vercel.app/",
-      "github": "https://github.com/boogiepop-135/Blog-Star-Wars",
+      "url": "https://github.com/boogiepop-135",
+      "github": "https://github.com/boogiepop-135",
       "bullets": [
-        "Desarrollé el front-end con React.js y Bootstrap para una interfaz responsiva y una experiencia de usuario fluida.",
-        "Implementé una API REST en Python para gestionar solicitudes de datos y entregar información estructurada sobre personajes, optimizando tiempos de respuesta.",
-        "Integré una base de datos SQL para almacenar y consultar eficientemente la información consumida por el front-end, facilitando la escalabilidad del contenido.",
-        "Conecté el backend con el front-end usando JavaScript para automatizar el flujo de datos."
+        "ES: Gestione bases de datos Oracle criticas para proteger la integridad y disponibilidad de la informacion operativa. EN: I managed critical Oracle databases to protect operational data integrity and availability.",
+        "ES: Implemente controles de acceso y perfiles de usuario con enfoque de minimo privilegio. EN: I implemented user access and profile controls following least-privilege principles.",
+        "ES: Defini protocolos de respaldo y continuidad operativa para reducir riesgo ante incidentes. EN: I defined backup and business continuity protocols to reduce incident risk.",
+        "ES: Valide configuraciones de red y practicas de ciberseguridad para fortalecer la resiliencia del entorno. EN: I validated network configurations and cybersecurity practices to improve environment resilience."
       ],
-      "technologies": ["React.js", "Bootstrap", "Python", "API REST", "SQL", "JavaScript"]
+      "technologies": ["Oracle", "SQL", "Access Control", "Backups", "Business Continuity", "Network Validation", "Cybersecurity"]
     },
     {
       "id": "3",
-      "title": "Chatbot Mullblue",
-      "description": "Desarrollo de IA y Automatización",
-      "dates": "Enero 2025 - Marzo 2025",
+      "title": "Laboratorio de Ciberseguridad Aplicada | Dockerlabs + Linux",
+      "description": "Cybersecurity Labs and Hardening",
+      "dates": "Practica Continua",
       "imageSrc": "https://i.ibb.co/C5N7Bpb8/Captura-de-pantalla-2025-04-19-a-la-s-4-30-27-p-m.png",
-      "url": "https://mullblue.com",
+      "url": "https://github.com/boogiepop-135",
       "bullets": [
-        "Desarrollo de chatbot inteligente para automatización de procesos empresariales usando tecnologías de IA y machine learning.",
-        "Implementación de sistema de procesamiento de lenguaje natural (NLP) para mejorar la interacción usuario-chatbot.",
-        "Integración de APIs externas para funcionalidades avanzadas de automatización y respuesta inteligente.",
-        "Optimización de rendimiento del chatbot para manejar múltiples conversaciones simultáneas.",
-        "Desarrollo de panel de administración para monitoreo y gestión del chatbot en tiempo real."
+        "ES: Despliegue laboratorios Dockerlabs para simular vectores de ataque y escenarios defensivos reales. EN: I deploy Dockerlabs environments to simulate real attack vectors and defensive scenarios.",
+        "ES: Realice pruebas de vulnerabilidad (incluyendo inyeccion SQL) y documente medidas de mitigacion. EN: I performed vulnerability testing (including SQL injection) and documented mitigation actions.",
+        "ES: Aplique conocimientos EDR/XDR para comprender deteccion, respuesta y trazabilidad de eventos. EN: I applied EDR/XDR concepts to understand detection, response, and event traceability.",
+        "ES: Administre entornos Linux avanzados (Fedora, Arch Linux, Pop!_OS, Garuda) con enfoque en hardening. EN: I manage advanced Linux environments with a hardening-oriented mindset."
       ],
-      "technologies": ["Python", "Machine Learning", "NLP", "APIs", "React", "Node.js", "IA"]
+      "technologies": ["Docker", "Linux", "Fedora", "Arch Linux", "Pop!_OS", "Garuda", "SQL", "EDR/XDR"]
     },
     {
       "id": "4",
@@ -129,84 +128,80 @@
   "services": [
     {
       "id": "1",
-      "title": "React.js",
-      "description": "Desarrollo aplicaciones web dinámicas y modernas con React, creando interfaces interactivas y eficientes. Experiencia en formularios de registro, perfiles de usuario y aplicaciones responsivas que mejoran la experiencia del usuario."
+      "title": "Full Stack Development",
+      "description": "ES: Diseno y desarrollo aplicaciones end-to-end con frontend moderno, APIs y bases de datos relacionales. EN: I design and build end-to-end applications with modern frontend, APIs, and relational databases."
     },
     {
       "id": "2",
-      "title": "Python & Flask",
-      "description": "Construyo soluciones backend robustas con Python y Flask, desarrollando APIs escalables, sistemas de gestión de datos y aplicaciones eficientes. Experiencia en JWT, autenticación segura y comunicación fluida entre front-end y base de datos."
+      "title": "Systems and Infrastructure",
+      "description": "ES: Administro sistemas criticos, accesos y servicios para mantener continuidad operativa y rendimiento estable. EN: I manage critical systems, access controls, and services to ensure business continuity and stable performance."
     },
     {
       "id": "3",
-      "title": "APIs REST",
-      "description": "Implemento APIs eficientes y personalizadas que integran sistemas, agilizan procesos y aseguran una comunicación fluida entre aplicaciones. Experiencia en optimización de tiempos de respuesta y entrega de información estructurada."
+      "title": "Cybersecurity Operations",
+      "description": "ES: Implemento controles de seguridad, validaciones de red y buenas practicas de defensa para proteger datos y operaciones. EN: I implement security controls, network validation, and defensive best practices to protect data and operations."
     },
     {
       "id": "4",
-      "title": "JavaScript",
-      "description": "Creo experiencias frontend interactivas con JavaScript, desarrollando funcionalidades dinámicas, automatización de flujos de datos y aplicaciones versátiles que conectan front-end y backend de manera eficiente."
+      "title": "Database Administration",
+      "description": "ES: Gestiono Oracle y SQL con enfoque en integridad, disponibilidad, respaldos y recuperacion. EN: I manage Oracle and SQL with a focus on integrity, availability, backups, and recovery readiness."
     },
     {
       "id": "5",
-      "title": "SQL & Bases de Datos",
-      "description": "Diseño y optimizo bases de datos relacionales SQL, creando esquemas eficientes para candidatos, empresas y sistemas de gestión. Experiencia en consultas optimizadas y gestión de rendimiento de bases de datos."
+      "title": "Automation and Support",
+      "description": "ES: Automatizo flujos de trabajo y procesos de soporte para reducir tiempos de respuesta y mejorar productividad. EN: I automate support workflows and processes to cut response times and increase productivity."
     },
     {
       "id": "6",
-      "title": "HTML & CSS",
-      "description": "Desarrollo interfaces web responsivas y modernas usando HTML y CSS, creando experiencias de usuario fluidas y atractivas. Integración con frameworks como Bootstrap para interfaces responsivas."
+      "title": "Data and BI",
+      "description": "ES: Transformo datos operativos en informacion accionable mediante SQL y tableros en Power BI. EN: I turn operational data into actionable insights using SQL and Power BI dashboards."
     }
   ],
-  "aboutpara": "Desarrollador Full Stack con formación en 4Geeks Academy y experiencia en control de calidad y procesos técnicos. Enfocado en crear soluciones eficientes con React, Flask y SQL, integrando pensamiento analítico y resolución de problemas en entornos web. Mi formación en Ingeniería Química me aporta una perspectiva única para abordar desafíos técnicos con metodología científica y creatividad.",
+  "aboutpara": "ES: Desarrollador Full Stack y Especialista en Sistemas/Ciberseguridad, formado en 4Geeks Academy con respaldo de University of Florida. Combino desarrollo de software, administracion de infraestructura y proteccion de datos para construir soluciones confiables de extremo a extremo. EN: Full Stack Developer and Systems/Cybersecurity Specialist trained at 4Geeks Academy with University of Florida endorsement. I combine software development, infrastructure administration, and data protection to deliver reliable end-to-end solutions.",
   "resume": {
-    "tagline": "👋 Soy un desarrollador Full Stack apasionado por crear soluciones digitales eficientes.",
-    "description": "He desarrollado aplicaciones web completas que conectan usuarios con empresas, automatizan procesos y optimizan la experiencia digital. Experto en React, JavaScript, Python, Flask y tecnologías web modernas.",
+    "tagline": "Full Stack Developer + Systems/Cybersecurity Specialist | Desarrollo orientado a resultados, continuidad y seguridad.",
+    "description": "ES: Profesional TI con experiencia en desarrollo Full Stack, administracion de sistemas, operaciones de ciberseguridad y gestion de bases de datos criticas. EN: IT professional experienced in Full Stack development, systems administration, cybersecurity operations, and critical database management.",
     "experiences": [
       {
         "id": "1",
         "dates": "Julio 2025 - Presente",
         "type": "Tiempo Completo",
-        "position": "Analista de IT",
+        "position": "Especialista en Sistemas y Continuidad Operativa",
         "company": "San Cosme Orgánico",
         "location": "Querétaro, México",
         "bullets": [
-          "Gestión de catálogos en sistemas POS (EMC) y la suite Oracle Simphony (Inventory, RA), asegurando la integridad de datos de ventas e inventario.",
-          "Administración de Microsoft 365, gestionando identidades (Entra ID), automatización de flujos (Power Automate) y colaboración (SharePoint).",
-          "Desarrollo full-stack de un chatbot (React, Node.js, Python) para automatizar la atención al cliente y la resolución de incidencias de facturación.",
-          "Desarrollo de plataforma interna de Help Desk (React, Flask) con panel de administración y bot para automatizar la gestión de tickets de soporte.",
-          "Resolución de incidencias críticas de integración (Oracle, Deliverect, Uber Eats), corrigiendo discrepancias en datos de facturación.",
-          "Soporte técnico Nivel 1 y 2, ejecutando mantenimiento preventivo/correctivo de hardware y gestionando el inventario de activos de TI.",
-          "Diseño y propuesta de arquitectura de red para la implementación de soluciones VPN y NaaS (Network as a Service) enfocadas en seguridad."
+          "ES: Gestion de bases de datos Oracle criticas para mantener integridad, disponibilidad y consistencia de informacion. EN: Management of critical Oracle databases to maintain data integrity, availability, and consistency.",
+          "ES: Implementacion de protocolos de ciberseguridad, gestion de accesos/perfiles y trazabilidad de operaciones sensibles. EN: Implementation of cybersecurity protocols, access/profile management, and traceability for sensitive operations.",
+          "ES: Validacion de red y controles de infraestructura para fortalecer continuidad operativa y resiliencia. EN: Network validation and infrastructure controls to strengthen operational continuity and resilience.",
+          "ES: Coordinacion de soporte tecnico y resolucion de incidentes de integracion en plataformas de negocio. EN: Technical support coordination and integration incident resolution across business platforms."
         ]
       },
       {
         "id": "2",
-        "dates": "Mayo 2025 - Presente",
-        "type": "Freelance",
-        "position": "Desarrollador de Software",
-        "company": "Freelance",
-        "location": "México",
+        "dates": "Enero 2024 - Junio 2025",
+        "type": "Tiempo Completo",
+        "position": "Desarrollador Full Stack y Soporte",
+        "company": "Mullblue",
+        "location": "Queretaro, Mexico",
         "bullets": [
-          "Desarrollé un CRM interno con inicio de sesión seguro y gestión de clientes usando React, JavaScript, Python, Flask y SQL, optimizando la experiencia de usuario.",
-          "Implementé funcionalidades para la administración de clientes y construí una landing page responsive para un cliente con React, JavaScript, HTML y CSS.",
-          "Construí el backend del CRM con Python y Flask (conectividad SQL), y diseñé la interfaz de usuario de ambos proyectos para una experiencia intuitiva.",
-          "Gestioné el ciclo completo de desarrollo freelance, desde la conceptualización hasta la implementación, enfocándome en soluciones eficientes y usabilidad."
+          "ES: Administre sistemas y bases de datos relacionales para sostener operaciones de negocio y flujo de informacion. EN: Managed systems and relational databases to support business operations and information flow.",
+          "ES: Digitalice procesos internos y desarrolle herramientas Full Stack para mejorar coordinacion y eficiencia. EN: Digitized internal processes and built Full Stack tools to improve coordination and efficiency.",
+          "ES: Automatice tareas de soporte y operacion, logrando una reduccion del 60% en tiempos de respuesta del equipo. EN: Automated support and operational tasks, achieving a 60% reduction in team response times.",
+          "ES: Brinde soporte tecnico integral con enfoque en continuidad, calidad de servicio y solucion de problemas complejos. EN: Provided end-to-end technical support focused on continuity, service quality, and complex problem-solving."
         ]
       },
       {
         "id": "3",
-        "dates": "Enero 2025 - Marzo 2025",
-        "type": "Proyecto Específico",
-        "position": "Desarrollador de Chatbot",
-        "company": "Mullblue",
+        "dates": "2024 - Presente",
+        "type": "Laboratorio y Formacion Continua",
+        "position": "Especializacion en Ciberseguridad y Sistemas",
+        "company": "Proyectos Personales / Certificaciones",
         "location": "Remoto",
         "bullets": [
-          "Desarrollo de chatbot inteligente para automatización de procesos empresariales usando tecnologías de IA y machine learning.",
-          "Implementación de sistema de procesamiento de lenguaje natural (NLP) para mejorar la interacción usuario-chatbot.",
-          "Integración de APIs externas para funcionalidades avanzadas de automatización y respuesta inteligente.",
-          "Optimización de rendimiento del chatbot para manejar múltiples conversaciones simultáneas.",
-          "Desarrollo de panel de administración para monitoreo y gestión del chatbot en tiempo real."
+          "ES: Practicas en Dockerlabs para emulacion de escenarios ofensivos y defensivos de seguridad. EN: Dockerlabs practice for offensive and defensive security scenario emulation.",
+          "ES: Evaluaciones de vulnerabilidad, incluyendo pruebas de inyeccion SQL y documentacion de mitigaciones. EN: Vulnerability assessments, including SQL injection testing and mitigation documentation.",
+          "ES: Dominio de entornos Linux (Fedora, Arch Linux, Pop!_OS, Garuda) y configuracion de firmware/hardware (Klipper). EN: Advanced Linux environments and firmware/hardware configuration (Klipper).",
+          "ES: Aplicacion de conceptos EDR/XDR y administracion de redes en contextos operativos. EN: Application of EDR/XDR concepts and network administration in operational contexts."
         ]
       }
     ],
@@ -216,14 +211,21 @@
         "universityName": "4Geeks Academy",
         "universityDate": "Diciembre 2024 - Mayo 2025",
         "universityLocation": "Remoto, LATAM",
-        "universityPara": "Certificación Desarrollo de Software Full Stack"
+        "universityPara": "Formacion principal en Desarrollo Full Stack (con respaldo de University of Florida)."
       },
       {
         "id": "2",
         "universityName": "Universidad Tecnológica de Querétaro",
         "universityDate": "Septiembre 2020 - Febrero 2023",
         "universityLocation": "Querétaro, México",
-        "universityPara": "Ingeniería Química"
+        "universityPara": "Ingenieria Quimica"
+      },
+      {
+        "id": "3",
+        "universityName": "Diplomados y Credenciales",
+        "universityDate": "2024 - Presente",
+        "universityLocation": "Mexico / Remoto",
+        "universityPara": "Diplomados y credenciales en Ciberseguridad y Tecnologias de la Informacion."
       }
     ],
     "languages": [
@@ -235,7 +237,8 @@
       "React.js",
       "Flask",
       "Bootstrap",
-      "SQLAlchemy"
+      "SQLAlchemy",
+      "Power BI"
     ],
     "programmingLanguages": [
       "JavaScript",
@@ -249,14 +252,20 @@
       "RESTful APIs",
       "Git",
       "GitHub",
-      "Jest"
+      "Jest",
+      "Dockerlabs",
+      "EDR/XDR",
+      "Oracle"
     ],
     "others": [
       "Microsoft 365",
       "Oracle Simphony",
       "Power Automate",
       "SharePoint",
-      "Entra ID"
+      "Entra ID",
+      "ERP/WMS",
+      "Network Administration",
+      "Klipper Firmware"
     ]
   }
 }

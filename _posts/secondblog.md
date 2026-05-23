@@ -1,93 +1,55 @@
 ---
-date: '2022-07-08T11:50:54.000Z'
-title: Second Blog
-tagline: This is a Tagline If you want to add.
-preview: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it to make a type
-  specimen book.
-image: >-
-  https://images.unsplash.com/photo-1656427868828-79a829b92b2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80
+date: '2026-05-22T10:10:00.000Z'
+title: 'Caso de Estudio: Seguridad y Continuidad en Oracle | Oracle Security and Continuity'
+tagline: 'Control de accesos, integridad de datos y resiliencia operativa en sistemas criticos.'
+preview: 'En San Cosme, implemente controles de ciberseguridad, accesos por perfil y practicas de continuidad para fortalecer la proteccion de informacion critica en Oracle.'
+image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=1600&q=80'
 ---
 
-# Heading One
+## Contexto | Context
 
-**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+La operacion de negocio dependia de bases de datos Oracle con informacion critica. Se requeria elevar el control de acceso y la continuidad operativa para minimizar riesgo y asegurar integridad de datos.
 
-## This is Heading Two
+Business operations depended on Oracle databases handling critical information. Access control and operational continuity had to be strengthened to minimize risk and ensure data integrity.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+## Reto | Challenge
 
-### This is Heading Three with `inline code`
+Proteger informacion sensible y mantener alta disponibilidad sin interrumpir procesos clave del negocio.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Protect sensitive data and maintain high availability without disrupting critical business processes.
 
-#### This is Heading Four With Code Block
+## Estrategia Tecnica | Technical Strategy
 
-```
+1. Revision de perfiles y privilegios de acceso bajo principio de minimo privilegio.
+2. Refuerzo de controles operativos para trazabilidad y gobernanza.
+3. Definicion de practicas de respaldo y recuperacion orientadas a continuidad.
+4. Validacion de red para reducir superficie de exposicion.
 
-# Auto-generated based on the server's hostname.
-# Set this to the URL used to access the Firezone Web UI.
-default['firezone']['external_url'] = 'https://firezone.example.com'
+1. Reviewed profiles and permissions under least-privilege principles.
+2. Strengthened operational controls for traceability and governance.
+3. Defined backup and recovery practices focused on continuity.
+4. Validated network conditions to reduce exposure surface.
 
-# Specify the path to your SSL cert and private key.
-# If set to nil (default), a self-signed cert will be generated for you.
-default['firezone']['ssl']['certificate'] = '/path/to/cert.pem'
-default['firezone']['ssl']['certificate_key'] = '/path/to/key.pem'
+## Implementacion | Implementation
 
-```
+La ejecucion se realizo por fases: diagnostico inicial, ajuste de controles de acceso, actualizacion de practicas operativas y validacion final en entorno de trabajo. Este enfoque redujo riesgo de interrupciones.
 
-##### Heading Five Code With Max Height
+Execution followed phased delivery: initial assessment, access-control updates, operational practice improvements, and final validation in live operations. This approach reduced disruption risk.
 
-```
+## Resultados | Results
 
-# Auto-generated based on the server's hostname.
-# Set this to the URL used to access the Firezone Web UI.
-default['firezone']['external_url'] = 'https://firezone.example.com'
+- Mayor control sobre accesos a informacion critica.
+- Mejora en integridad y trazabilidad de datos.
+- Reduccion del riesgo operativo ante incidentes.
+- Incremento en preparacion para escenarios de contingencia.
 
-# Specify the path to your SSL cert and private key.
-# If set to nil (default), a self-signed cert will be generated for you.
-default['firezone']['ssl']['certificate'] = '/path/to/cert.pem'
-default['firezone']['ssl']['certificate_key'] = '/path/to/key.pem'
+- Stronger control over access to critical information.
+- Improved data integrity and traceability.
+- Reduced operational risk during incidents.
+- Increased readiness for contingency scenarios.
 
-# Auto-generated based on the server's hostname.
-# Set this to the URL used to access the Firezone Web UI.
-default['firezone']['external_url'] = 'https://firezone.example.com'
+## Valor de Negocio | Business Value
 
-# Specify the path to your SSL cert and private key.
-# If set to nil (default), a self-signed cert will be generated for you.
-default['firezone']['ssl']['certificate'] = '/path/to/cert.pem'
-default['firezone']['ssl']['certificate_key'] = '/path/to/key.pem'
+El proyecto fortalecio la confianza operativa de la plataforma de datos, habilitando decisiones mas seguras y una base tecnologica mas resiliente para crecimiento sostenido.
 
-```
-
-## BLockquote
-
-> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-
-## Ordered List with horizontal line
-
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
-
----
-
-## Unordered List With Horizontal line
-
-- First item
-- Second item
-- Third item
-- Fourth item
-
----
-
-## Links
-
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-
-## Images
-
-![An old rock in the desert](https://images.unsplash.com/photo-1654475677192-2d869348bb4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
+The project improved operational confidence in the data platform, enabling safer decision-making and a more resilient technology foundation for sustainable growth.

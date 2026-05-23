@@ -62,8 +62,8 @@ export default function Home() {
       {data.showCursor && <Cursor />}
       <Head>
         <title>{data.name}</title>
-        <meta name="description" content="Levi Eduardo Villarreal - Desarrollador Full Stack especializado en React, Python, Flask y desarrollo de chatbots con IA" />
-        <meta name="keywords" content="desarrollador full stack, react, python, flask, chatbot, IA, queretaro, mexico" />
+        <meta name="description" content="Levi Eduardo Villarreal Argueta - Full Stack Developer and Systems/Cybersecurity Specialist focused on secure architectures, data protection, and operational continuity." />
+        <meta name="keywords" content="full stack developer, cybersecurity specialist, systems administration, oracle, sql, linux, data protection, operational continuity, queretaro, mexico" />
       </Head>
 
       {/* Navigation */}
@@ -81,10 +81,10 @@ export default function Home() {
       <div className="container mx-auto mb-10">
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef} id="projects">
           <h1 className="text-3xl laptop:text-4xl text-bold mb-2 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Proyectos
+            Proyectos / Projects
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
-            Una selección de mis proyectos más destacados desarrollados con tecnologías modernas
+            Soluciones reales en desarrollo Full Stack, sistemas y ciberseguridad con impacto medible
           </p>
 
           <div className="space-y-6">
@@ -100,10 +100,10 @@ export default function Home() {
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" id="services">
           <h1 className="text-3xl laptop:text-4xl text-bold mb-2 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            Servicios
+            Servicios / Services
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
-            Tecnologías y servicios que domino para crear soluciones digitales innovadoras
+            Capacidades tecnicas para construir, asegurar y escalar operaciones tecnologicas
           </p>
           <div className="grid grid-cols-1 laptop:grid-cols-2 gap-6">
             {data.services.map((service, index) => (
@@ -130,7 +130,7 @@ export default function Home() {
           <div className="bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-3xl p-8 laptop:p-12 shadow-xl">
             <div className="text-center mb-12">
               <h1 className="text-4xl laptop:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Acerca de mí
+                Sobre mi / About Me
               </h1>
               <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto rounded-full"></div>
             </div>
@@ -146,32 +146,33 @@ export default function Home() {
                       </div>
                       <div>
                         <h2 className="text-2xl font-bold text-gray-800 dark:text-white">Levi Eduardo Villarreal</h2>
-                        <p className="text-blue-600 dark:text-blue-400 font-semibold">Desarrollador Full Stack</p>
+                        <p className="text-blue-600 dark:text-blue-400 font-semibold">Full Stack Developer | Systems & Cybersecurity Specialist</p>
                       </div>
                     </div>
                     
                     <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                      Desarrollador Full Stack con formación en 4Geeks Academy y experiencia en control de calidad y procesos técnicos. 
-                      Enfocado en crear soluciones eficientes con React, Flask y SQL, integrando pensamiento analítico y resolución de problemas en entornos web.
+                      Desarrollador Full Stack y Especialista en Sistemas/Ciberseguridad con formacion en 4Geeks Academy (University of Florida).
+                      Integro desarrollo de software, administracion de infraestructura y proteccion de datos para resolver problemas complejos con resultados medibles.
                     </p>
                     
                     <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                      Mi formación en Ingeniería Química me aporta una perspectiva única para abordar desafíos técnicos con metodología científica y creatividad.
+                      Experiencia en continuidad operativa, bases de datos criticas, automatizacion de soporte y hardening en Linux,
+                      manteniendo un enfoque profesional en resiliencia, seguridad y eficiencia operativa.
                     </p>
                     
                     {/* Skills highlights */}
                     <div className="flex flex-wrap gap-3 mt-6">
                       <span className="px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">
-                        React & JavaScript
+                        Full Stack Engineering
                       </span>
                       <span className="px-4 py-2 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full text-sm font-medium">
-                        Python & Flask
+                        Systems Administration
                       </span>
                       <span className="px-4 py-2 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full text-sm font-medium">
-                        SQL & Databases
+                        Oracle & SQL Databases
                       </span>
                       <span className="px-4 py-2 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 rounded-full text-sm font-medium">
-                        Chatbots & IA
+                        Cybersecurity Operations
                       </span>
                     </div>
                   </div>
@@ -179,31 +180,31 @@ export default function Home() {
                   {/* Visual elements */}
                   <div className="relative">
                     <div className="bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl p-8 text-white">
-                      <h3 className="text-2xl font-bold mb-4">Mi Enfoque</h3>
+                      <h3 className="text-2xl font-bold mb-4">Enfoque Tecnico / Technical Focus</h3>
                       <div className="space-y-4">
                         <div className="flex items-center space-x-3">
                           <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
                             <span className="text-sm">🎯</span>
                           </div>
-                          <span className="text-lg">Soluciones Eficientes</span>
+                          <span className="text-lg">Impacto Medible / Measurable Impact</span>
                         </div>
                         <div className="flex items-center space-x-3">
                           <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
                             <span className="text-sm">⚡</span>
                           </div>
-                          <span className="text-lg">Desarrollo Rápido</span>
+                          <span className="text-lg">Automatizacion y Escalabilidad</span>
                         </div>
                         <div className="flex items-center space-x-3">
                           <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
                             <span className="text-sm">🔬</span>
                           </div>
-                          <span className="text-lg">Metodología Científica</span>
+                          <span className="text-lg">Seguridad y Gobernanza de Datos</span>
                         </div>
                         <div className="flex items-center space-x-3">
                           <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
                             <span className="text-sm">🚀</span>
                           </div>
-                          <span className="text-lg">Innovación Constante</span>
+                          <span className="text-lg">Continuidad Operativa</span>
                         </div>
                       </div>
                     </div>

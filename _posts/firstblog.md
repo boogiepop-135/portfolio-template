@@ -1,62 +1,55 @@
 ---
-date: '2022-07-15T11:50:54.000Z'
-title: Amazing Blog
-tagline: This is a Tagline If you want to add.
-preview: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it to make a type
-  specimen book.
-image: >-
-  https://images.unsplash.com/photo-1656188505561-19f1a1b6cda8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80
+date: '2026-05-22T10:00:00.000Z'
+title: 'Caso de Estudio: Automatizacion de Soporte en Mullblue | Case Study: Support Automation at Mullblue'
+tagline: 'Digitalizacion operativa, automatizacion y mejora medible en tiempos de respuesta.'
+preview: 'Como Desarrollador Full Stack y Soporte, disene flujos digitales y automatizaciones que redujeron en 60% los tiempos de respuesta del equipo.'
+image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80'
 ---
 
-# Heading One
+## Contexto | Context
 
-**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+En Mullblue, la operacion diaria dependia de procesos manuales para soporte interno y coordinacion entre areas. Esto generaba cuellos de botella, baja trazabilidad y tiempos de atencion inconsistentes.
 
-## This is Heading Two
+At Mullblue, daily operations relied on manual processes for internal support and cross-team coordination. This created bottlenecks, low traceability, and inconsistent response times.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+## Reto | Challenge
 
-### This is Heading Three
+Reducir tiempos de respuesta sin comprometer calidad de servicio, mientras se mantenia continuidad operativa y control de datos.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Reduce response times without compromising service quality, while maintaining operational continuity and data control.
 
-#### This is Heading Four With Code Block
+## Estrategia Tecnica | Technical Strategy
 
-```jsx
-<code className={className} {...props}>
-  {children}
-</code>
-```
+1. Estandarizacion de flujos de soporte y operaciones.
+2. Desarrollo de herramientas Full Stack para centralizar tareas recurrentes.
+3. Automatizacion de actividades manuales de alto volumen.
+4. Gestion de sistemas y bases de datos relacionales para estabilidad operativa.
 
-## BLockquote
+1. Standardized support and operations workflows.
+2. Built Full Stack tooling to centralize recurring tasks.
+3. Automated high-volume manual activities.
+4. Managed systems and relational databases for operational stability.
 
-> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+## Implementacion | Implementation
 
-## Ordered List with horizontal line
+Se implementaron tableros internos, automatizaciones y componentes de seguimiento para mejorar visibilidad de tickets, prioridades y tiempos de atencion. El despliegue fue incremental para evitar impacto en el servicio.
 
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
+Internal dashboards, automations, and tracking components were implemented to improve ticket visibility, prioritization, and response timing. Rollout was incremental to avoid service disruption.
 
----
+## Resultados | Results
 
-## Unordered List With Horizontal line
+- Reduccion del 60% en tiempos de respuesta del equipo.
+- Mayor trazabilidad de incidencias y tareas.
+- Mejor coordinacion entre equipos tecnicos y operativos.
+- Operacion diaria mas estable y predecible.
 
-- First item
-- Second item
-- Third item
-- Fourth item
+- 60% reduction in team response times.
+- Better incident and task traceability.
+- Improved coordination between technical and operations teams.
+- More stable and predictable day-to-day execution.
 
----
+## Valor de Negocio | Business Value
 
-## Links
+Este proyecto demostro como la combinacion de desarrollo Full Stack y soporte tecnico puede transformar operaciones internas y generar impacto directo en productividad, nivel de servicio y continuidad del negocio.
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
-
-## Images
-
-![An old rock in the desert](https://images.unsplash.com/photo-1654475677192-2d869348bb4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
+This project showed how combining Full Stack development and technical support can transform internal operations and directly improve productivity, service levels, and business continuity.

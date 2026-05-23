@@ -54,7 +54,7 @@ const Resume = () => {
                 <Socials />
               </div>
               <div className="mt-5">
-                <h1 className="text-2xl font-bold">Experience</h1>
+                <h1 className="text-2xl font-bold">Experience / Experiencia</h1>
 
                 {resume.experiences.map(
                   ({ id, dates, type, position, bullets }) => (
@@ -69,23 +69,23 @@ const Resume = () => {
                 )}
               </div>
               <div className="mt-5">
-                <h1 className="text-2xl font-bold">Education</h1>
-                <div className="mt-2">
-                  <h2 className="text-lg">{resume.education.universityName}</h2>
-                  <h3 className="text-sm opacity-75">
-                    {resume.education.universityDate}
-                  </h3>
-                  <p className="text-sm mt-2 opacity-50">
-                    {resume.education.universityPara}
-                  </p>
-                </div>
+                <h1 className="text-2xl font-bold">Education / Formacion</h1>
+                {resume.education &&
+                  resume.education.map((education, index) => (
+                    <div className="mt-4" key={index}>
+                      <h2 className="text-lg">{education.universityName}</h2>
+                      <h3 className="text-sm opacity-75">{education.universityDate}</h3>
+                      <p className="text-sm opacity-60">{education.universityLocation}</p>
+                      <p className="text-sm mt-2 opacity-50">{education.universityPara}</p>
+                    </div>
+                  ))}
               </div>
               <div className="mt-5">
-                <h1 className="text-2xl font-bold">Skills</h1>
+                <h1 className="text-2xl font-bold">Skills / Habilidades</h1>
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Languages</h2>
+                      <h2 className="text-lg">Languages / Idiomas</h2>
                       <ul className="list-disc">
                         {resume.languages.map((language, index) => (
                           <li key={index} className="ml-5 py-2">
@@ -98,7 +98,7 @@ const Resume = () => {
 
                   {resume.frameworks && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Frameworks</h2>
+                      <h2 className="text-lg">Frameworks & Tools</h2>
                       <ul className="list-disc">
                         {resume.frameworks.map((framework, index) => (
                           <li key={index} className="ml-5 py-2">
@@ -111,7 +111,7 @@ const Resume = () => {
 
                   {resume.others && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Others</h2>
+                      <h2 className="text-lg">Systems & Platforms</h2>
                       <ul className="list-disc">
                         {resume.others.map((other, index) => (
                           <li key={index} className="ml-5 py-2">
