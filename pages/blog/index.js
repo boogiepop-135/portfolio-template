@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Router from "next/router";
+import Router, { useRouter } from "next/router";
 import { useRef, useState } from "react";
 import { stagger } from "../../animations";
 import Button from "../../components/Button";
