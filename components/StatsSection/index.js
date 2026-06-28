@@ -7,21 +7,21 @@ const StatsSection = () => {
       color: "from-blue-500 to-cyan-500"
     },
     {
-      number: "2+",
+      number: "3+",
       label: "Años de Experiencia",
       icon: "💼",
       color: "from-purple-500 to-pink-500"
     },
     {
-      number: "10+",
+      number: "15+",
       label: "Tecnologías Dominadas",
       icon: "⚡",
       color: "from-green-500 to-emerald-500"
     },
     {
-      number: "100%",
-      label: "Satisfacción del Cliente",
-      icon: "⭐",
+      number: "5",
+      label: "Empresas Colaboradas",
+      icon: "🏢",
       color: "from-yellow-500 to-orange-500"
     }
   ];
