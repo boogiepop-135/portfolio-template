@@ -10,7 +10,6 @@
 
 body {
   @apply dark:bg-gray-900 dark:text-white bg-gray-50 text-gray-900;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
 }
 
@@ -90,15 +89,6 @@ body {
 }
 
 /* Custom animations and effects */
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
-}
-
-.float-animation {
-  animation: float 3s ease-in-out infinite;
-}
-
 /* Glass morphism effect */
 .glass {
   background: rgba(255, 255, 255, 0.1);
@@ -111,10 +101,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Smooth transitions */
-* {
-  transition: all 0.3s ease;
-}
+
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {

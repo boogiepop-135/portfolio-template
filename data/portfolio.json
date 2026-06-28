@@ -2,7 +2,7 @@
   "name": "Levi Eduardo Villarreal",
   "headerTaglineOne": "Hola / Hello",
   "headerTaglineTwo": "Soy Levi Eduardo Villarreal Argueta / I am Levi Eduardo Villarreal Argueta",
-  "headerTaglineThree": "Desarrollador Full Stack y Especialista en Sistemas/Ciberseguridad",
+  "headerTaglineThree": "Ingeniero de Infraestructura y SAP Basis | Full Stack | Automatizacion | Ciberseguridad (SOC)",
   "headerTaglineFour": "based in Queretaro, Mexico.",
   "showCursor": false,
   "showBlog": true,
@@ -17,7 +17,7 @@
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/levi-eduardo-villareal-argueta-4084571b6"
+      "link": "https://www.linkedin.com/in/levi-villarreal"
     },
     {
       "id": "3",
@@ -33,96 +33,90 @@
   "projects": [
     {
       "id": "1",
-      "title": "Automatizacion de Soporte y Flujos Operativos | Mullblue",
-      "description": "Full Stack Development + IT Operations",
-      "dates": "Enero 2024 - Junio 2025",
+      "title": "Infraestructura SAP Basis y Monitoreo | mabe Global",
+      "description": "SAP Basis + Infrastructure Engineering",
+      "dates": "Junio 2026 - Presente",
+      "imageSrc": "https://i.ibb.co/vvcyc2BB/Captura-de-pantalla-2025-04-19-a-la-s-2-57-09-p-m.png",
+      "url": "https://www.mabe.com",
+      "github": "https://github.com/boogiepop-135",
+      "bullets": [
+        "ES: Administracion de entornos criticos SAP Basis, asegurando continuidad operativa, rendimiento y configuracion optima. EN: Management of critical SAP Basis environments, ensuring operational continuity, performance, and optimal configuration.",
+        "ES: Administracion y auditoria de plataforma de monitoreo corporativo (SiteScope / OBM) para visibilidad y estabilidad de infraestructura. EN: Administration and audit of corporate monitoring platform (SiteScope / OBM) for infrastructure visibility and stability.",
+        "ES: Gestion activa de CMDB con politicas de control, estandarizacion y nomenclatura para CIs. EN: Active CMDB management with control, standardization, and naming policies for Configuration Items.",
+        "ES: Automatizacion con scripts Python para recoleccion de metricas y validacion de formatos JSON/XML. EN: Automation with Python scripts for metric collection and JSON/XML format validation."
+      ],
+      "technologies": ["SAP Basis", "SiteScope", "OBM", "CMDB", "Python", "JSON", "XML", "Linux", "Windows", "SNMP", "WMI", "SSH"]
+    },
+    {
+      "id": "2",
+      "title": "Desarrollo Full Stack y Automatizacion | Mullblue",
+      "description": "Full Stack Development + IT Support",
+      "dates": "Abril 2025 - Marzo 2026",
       "imageSrc": "https://i.ibb.co/vvcyc2BB/Captura-de-pantalla-2025-04-19-a-la-s-2-57-09-p-m.png",
       "url": "https://mullblue.com",
       "github": "https://github.com/boogiepop-135",
       "bullets": [
-        "ES: Lidere la digitalizacion de flujos de soporte y operaciones con herramientas Full Stack para estandarizar tareas y reducir friccion operativa. EN: I led support and operations workflow digitization with Full Stack tooling to standardize tasks and reduce operational friction.",
-        "ES: Implemente automatizaciones y paneles internos que mejoraron trazabilidad, tiempos de atencion y coordinacion entre areas. EN: I implemented automations and internal dashboards that improved traceability, response times, and cross-team coordination.",
-        "ES: Administre sistemas y bases de datos relacionales con enfoque en estabilidad y continuidad del servicio. EN: I managed systems and relational databases with a strong focus on service stability and continuity.",
-        "ES: Resultado medible: reduccion del 60% en tiempos de respuesta del equipo. EN: Measurable outcome: 60% reduction in team response times."
+        "ES: Desarrolle soluciones de software y automatizacion de procesos con integracion de bases de datos relacionales. EN: Developed software solutions and process automation with relational database integration.",
+        "ES: Reduje tiempos de respuesta operativa en un 60% mediante automatizaciones y herramientas internas. EN: Reduced operational response times by 60% through automation and internal tools.",
+        "ES: Brinde soporte tecnico avanzado de 1er y 2do nivel, gestion de incidencias y mantenimiento de infraestructura TI. EN: Provided advanced 1st and 2nd level technical support, incident management, and IT infrastructure maintenance."
       ],
-      "technologies": ["React", "JavaScript", "Python", "Flask", "SQL", "Automation", "IT Support", "Operational Analytics"]
-    },
-    {
-      "id": "2",
-      "title": "Continuidad Operativa y Seguridad de Datos Oracle | San Cosme",
-      "description": "Systems Administration + Cybersecurity",
-      "dates": "Julio 2025 - Presente",
-      "imageSrc": "https://i.ibb.co/vvcyc2BB/Captura-de-pantalla-2025-04-19-a-la-s-2-57-09-p-m.png",
-      "url": "https://github.com/boogiepop-135",
-      "github": "https://github.com/boogiepop-135",
-      "bullets": [
-        "ES: Gestione bases de datos Oracle criticas para proteger la integridad y disponibilidad de la informacion operativa. EN: I managed critical Oracle databases to protect operational data integrity and availability.",
-        "ES: Implemente controles de acceso y perfiles de usuario con enfoque de minimo privilegio. EN: I implemented user access and profile controls following least-privilege principles.",
-        "ES: Defini protocolos de respaldo y continuidad operativa para reducir riesgo ante incidentes. EN: I defined backup and business continuity protocols to reduce incident risk.",
-        "ES: Valide configuraciones de red y practicas de ciberseguridad para fortalecer la resiliencia del entorno. EN: I validated network configurations and cybersecurity practices to improve environment resilience."
-      ],
-      "technologies": ["Oracle", "SQL", "Access Control", "Backups", "Business Continuity", "Network Validation", "Cybersecurity"]
+      "technologies": ["React", "JavaScript", "Python", "Flask", "SQL", "Automation", "IT Support", "Databases"]
     },
     {
       "id": "3",
-      "title": "Laboratorio de Ciberseguridad Aplicada | Dockerlabs + Linux",
-      "description": "Cybersecurity Labs and Hardening",
-      "dates": "Practica Continua",
+      "title": "Administracion de IT y Seguridad | San Cosme",
+      "description": "Systems Administration + Cybersecurity",
+      "dates": "Julio 2025 - Noviembre 2025",
       "imageSrc": "https://i.ibb.co/C5N7Bpb8/Captura-de-pantalla-2025-04-19-a-la-s-4-30-27-p-m.png",
       "url": "https://github.com/boogiepop-135",
+      "github": "https://github.com/boogiepop-135",
       "bullets": [
-        "ES: Despliegue laboratorios Dockerlabs para simular vectores de ataque y escenarios defensivos reales. EN: I deploy Dockerlabs environments to simulate real attack vectors and defensive scenarios.",
-        "ES: Realice pruebas de vulnerabilidad (incluyendo inyeccion SQL) y documente medidas de mitigacion. EN: I performed vulnerability testing (including SQL injection) and documented mitigation actions.",
-        "ES: Aplique conocimientos EDR/XDR para comprender deteccion, respuesta y trazabilidad de eventos. EN: I applied EDR/XDR concepts to understand detection, response, and event traceability.",
-        "ES: Administre entornos Linux avanzados (Fedora, Arch Linux, Pop!_OS, Garuda) con enfoque en hardening. EN: I manage advanced Linux environments with a hardening-oriented mindset."
+        "ES: Administracion de bases de datos criticas y validacion de redes corporativas (LAN, Wi-Fi). EN: Management of critical databases and validation of corporate networks (LAN, Wi-Fi).",
+        "ES: Implementacion de protocolos de seguridad, gestion de perfiles de usuario y proteccion de la informacion. EN: Implementation of security protocols, user profile management, and information protection."
       ],
-      "technologies": ["Docker", "Linux", "Fedora", "Arch Linux", "Pop!_OS", "Garuda", "SQL", "EDR/XDR"]
+      "technologies": ["Databases", "LAN", "Wi-Fi", "Security Protocols", "Access Control", "Information Security"]
     },
     {
       "id": "4",
-      "title": "CRM Interno",
-      "description": "Desarrollo Full Stack",
-      "dates": "Mayo 2025 - Presente",
+      "title": "Control Operativo y Aseguramiento Normativo | Hydrocon",
+      "description": "Technical Process Analysis",
+      "dates": "Febrero 2024 - Abril 2025",
       "imageSrc": "https://i.ibb.co/BVt66B0j/Captura-de-pantalla-2025-04-19-a-la-s-4-21-40-p-m.png",
-      "url": "https://github.com/boogiepop-135/CRM-Interno",
-      "github": "https://github.com/boogiepop-135/CRM-Interno",
+      "url": "https://github.com/boogiepop-135",
+      "github": "https://github.com/boogiepop-135",
       "bullets": [
-        "Desarrollé un CRM interno con inicio de sesión seguro y gestión de clientes usando React, JavaScript, Python, Flask y SQL.",
-        "Implementé funcionalidades para la administración de clientes y construí una landing page responsive para un cliente.",
-        "Construí el backend del CRM con Python y Flask (conectividad SQL), y diseñé la interfaz de usuario para una experiencia intuitiva.",
-        "Gestioné el ciclo completo de desarrollo freelance, desde la conceptualización hasta la implementación."
+        "ES: Monitoreo de variables criticas de proceso y aseguramiento normativo. EN: Monitoring of critical process variables and regulatory compliance.",
+        "ES: Gestion de control documental en bitacoras digitales para trazabilidad operativa. EN: Document control management in digital logs for operational traceability."
       ],
-      "technologies": ["React", "JavaScript", "Python", "Flask", "SQL", "HTML", "CSS"]
+      "technologies": ["Process Monitoring", "Regulatory Compliance", "Document Control", "Digital Logs"]
     },
     {
       "id": "5",
-      "title": "Help Desk Platform",
-      "description": "Desarrollo Full Stack",
-      "dates": "Julio 2025 - Presente",
+      "title": "Aseguramiento de Calidad y Cumplimiento | GRUPO SID",
+      "description": "Quality Assurance + Compliance",
+      "dates": "Mayo 2023 - Octubre 2023",
       "imageSrc": "https://i.ibb.co/whTs7v4d/Captura-de-pantalla-2025-04-19-a-la-s-4-38-20-p-m.png",
-      "url": "https://github.com/boogiepop-135/Help-Desk-Platform",
-      "github": "https://github.com/boogiepop-135/Help-Desk-Platform",
+      "url": "https://github.com/boogiepop-135",
+      "github": "https://github.com/boogiepop-135",
       "bullets": [
-        "Desarrollo de plataforma interna de Help Desk (React, Flask) con panel de administración y bot para automatizar la gestión de tickets de soporte.",
-        "Implementación de sistema de tickets automatizado para mejorar la eficiencia del soporte técnico.",
-        "Integración con sistemas existentes para unificar la gestión de incidencias y solicitudes de soporte."
+        "ES: Gestion de control de calidad de producto y validacion de estandares. EN: Product quality control management and standards validation.",
+        "ES: Manejo de incidencias (NCR) y actualizacion de manuales de procedimientos operativos. EN: Incident management (NCR) and updating operational procedure manuals."
       ],
-      "technologies": ["React", "Flask", "Python", "SQL", "Bootstrap", "APIs"]
+      "technologies": ["Quality Control", "NCR Management", "Standards Validation", "Procedures Documentation"]
     },
     {
       "id": "6",
-      "title": "Landing Page Responsive",
-      "description": "Desarrollo Frontend",
+      "title": "CRM Interno",
+      "description": "Full Stack Development",
       "dates": "Mayo 2025 - Presente",
       "imageSrc": "https://i.ibb.co/5gtKf9Bg/Captura-de-pantalla-2025-04-19-a-la-s-4-44-35-p-m.png",
-      "url": "https://github.com/boogiepop-135/Landing-Page-Responsive",
-      "github": "https://github.com/boogiepop-135/Landing-Page-Responsive",
+      "url": "https://github.com/boogiepop-135/CRM-Interno",
+      "github": "https://github.com/boogiepop-135/CRM-Interno",
       "bullets": [
-        "Implementé funcionalidades para la administración de clientes y construí una landing page responsive para un cliente con React, JavaScript, HTML y CSS.",
-        "Diseño responsivo optimizado para diferentes dispositivos y navegadores.",
-        "Integración de animaciones y efectos visuales para mejorar la experiencia del usuario."
+        "ES: Desarrollo de CRM interno con inicio de sesion seguro y gestion de clientes (React, Python, Flask, SQL). EN: Built an internal CRM with secure login and client management (React, Python, Flask, SQL).",
+        "ES: Gestion del ciclo completo de desarrollo freelance, desde conceptualizacion hasta implementacion. EN: Managed the full freelance development cycle from concept to deployment."
       ],
-      "technologies": ["React", "JavaScript", "HTML", "CSS", "Responsive Design"]
+      "technologies": ["React", "JavaScript", "Python", "Flask", "SQL", "HTML", "CSS"]
     }
   ],
   "services": [
@@ -157,115 +151,150 @@
       "description": "ES: Transformo datos operativos en informacion accionable mediante SQL y tableros en Power BI. EN: I turn operational data into actionable insights using SQL and Power BI dashboards."
     }
   ],
-  "aboutpara": "ES: Desarrollador Full Stack y Especialista en Sistemas/Ciberseguridad, formado en 4Geeks Academy con respaldo de University of Florida. Combino desarrollo de software, administracion de infraestructura y proteccion de datos para construir soluciones confiables de extremo a extremo. EN: Full Stack Developer and Systems/Cybersecurity Specialist trained at 4Geeks Academy with University of Florida endorsement. I combine software development, infrastructure administration, and data protection to deliver reliable end-to-end solutions.",
+  "aboutpara": "ES: Profesional de TI con experiencia en administracion de infraestructura de mision critica (entornos SAP Basis), desarrollo Full Stack y automatizacion de flujos de trabajo. Enfoque actual en Ciberseguridad y Operaciones de Seguridad (SOC). Conocimientos en administracion de servidores Linux, escaneo y fortificacion de redes TCP/IP, analisis de vulnerabilidades (OWASP Top 10), scripting en Python para automatizacion defensiva y monitoreo con Wazuh/SIEMs. EN: IT professional experienced in mission-critical infrastructure administration (SAP Basis environments), Full Stack development, and workflow automation. Currently focused on Cybersecurity and Security Operations (SOC). Skilled in Linux server administration, TCP/IP network scanning and hardening, vulnerability analysis (OWASP Top 10), Python scripting for defensive automation, and monitoring with Wazuh/SIEMs.",
   "resume": {
-    "tagline": "Full Stack Developer + Systems/Cybersecurity Specialist | Desarrollo orientado a resultados, continuidad y seguridad.",
-    "description": "ES: Profesional TI con experiencia en desarrollo Full Stack, administracion de sistemas, operaciones de ciberseguridad y gestion de bases de datos criticas. EN: IT professional experienced in Full Stack development, systems administration, cybersecurity operations, and critical database management.",
+    "tagline": "Ingeniero de Infraestructura y SAP Basis | Full Stack | Automatizacion | Especializacion en Ciberseguridad (SOC)",
+    "description": "ES: Profesional de TI con experiencia solida en administracion de infraestructura de mision critica (SAP Basis), desarrollo Full Stack y automatizacion. Enfoque actual en Ciberseguridad y Operaciones de Seguridad (SOC) con practicas en Wazuh, SIEMs y hardening Linux. EN: IT professional with solid experience in mission-critical infrastructure administration (SAP Basis), Full Stack development, and automation. Currently focused on Cybersecurity and Security Operations (SOC) with hands-on practice in Wazuh, SIEMs, and Linux hardening.",
     "experiences": [
       {
         "id": "1",
-        "dates": "Julio 2025 - Presente",
+        "dates": "Junio 2026 - Presente",
         "type": "Tiempo Completo",
-        "position": "Especialista en Sistemas y Continuidad Operativa",
-        "company": "San Cosme Orgánico",
-        "location": "Querétaro, México",
+        "position": "Ingeniero de Infraestructura TI y SAP Basis",
+        "company": "mabe Global",
+        "location": "Queretaro, Mexico",
         "bullets": [
-          "ES: Gestion de bases de datos Oracle criticas para mantener integridad, disponibilidad y consistencia de informacion. EN: Management of critical Oracle databases to maintain data integrity, availability, and consistency.",
-          "ES: Implementacion de protocolos de ciberseguridad, gestion de accesos/perfiles y trazabilidad de operaciones sensibles. EN: Implementation of cybersecurity protocols, access/profile management, and traceability for sensitive operations.",
-          "ES: Validacion de red y controles de infraestructura para fortalecer continuidad operativa y resiliencia. EN: Network validation and infrastructure controls to strengthen operational continuity and resilience.",
-          "ES: Coordinacion de soporte tecnico y resolucion de incidentes de integracion en plataformas de negocio. EN: Technical support coordination and integration incident resolution across business platforms."
+          "ES: Administracion de entornos criticos SAP Basis, asegurando continuidad operativa, rendimiento y configuracion optima de sistemas clave para el negocio. EN: Administration of critical SAP Basis environments, ensuring operational continuity, performance, and optimal system configuration.",
+          "ES: Administracion y auditoria de plataforma de monitoreo corporativo (SiteScope / OBM) para visibilidad, estabilidad y seguridad de infraestructura. EN: Administration and audit of corporate monitoring platform (SiteScope / OBM) for infrastructure visibility, stability, and security.",
+          "ES: Gestion activa de CMDB con politicas de control, estandarizacion y nomenclatura para elementos de configuracion (CIs). EN: Active CMDB management with control, standardization, and naming policies for Configuration Items (CIs).",
+          "ES: Diagnostico y resolucion de problemas de conectividad e instrumentacion de agentes en Windows y Linux (SNMP, WMI, SSH). EN: Diagnosis and resolution of connectivity and agent instrumentation issues on Windows and Linux (SNMP, WMI, SSH).",
+          "ES: Automatizacion con scripts Python para recoleccion de metricas y validacion de formatos JSON/XML, optimizando umbrales de alerta. EN: Automation with Python scripts for metric collection and JSON/XML format validation, optimizing alert thresholds."
         ]
       },
       {
         "id": "2",
-        "dates": "Enero 2024 - Junio 2025",
+        "dates": "Abril 2025 - Marzo 2026",
         "type": "Tiempo Completo",
-        "position": "Desarrollador Full Stack y Soporte",
+        "position": "Desarrollador Full Stack & Soporte IT",
         "company": "Mullblue",
-        "location": "Queretaro, Mexico",
+        "location": "Ciudad de Mexico, Mexico",
         "bullets": [
-          "ES: Administre sistemas y bases de datos relacionales para sostener operaciones de negocio y flujo de informacion. EN: Managed systems and relational databases to support business operations and information flow.",
-          "ES: Digitalice procesos internos y desarrolle herramientas Full Stack para mejorar coordinacion y eficiencia. EN: Digitized internal processes and built Full Stack tools to improve coordination and efficiency.",
-          "ES: Automatice tareas de soporte y operacion, logrando una reduccion del 60% en tiempos de respuesta del equipo. EN: Automated support and operational tasks, achieving a 60% reduction in team response times.",
-          "ES: Brinde soporte tecnico integral con enfoque en continuidad, calidad de servicio y solucion de problemas complejos. EN: Provided end-to-end technical support focused on continuity, service quality, and complex problem-solving."
+          "ES: Desarrollo de soluciones de software, automatizacion de procesos e integracion de bases de datos relacionales. EN: Development of software solutions, process automation, and relational database integration.",
+          "ES: Reduccion de tiempos de respuesta operativa en un 60% mediante automatizaciones y herramientas internas. EN: Reduction of operational response times by 60% through automation and internal tools.",
+          "ES: Mantenimiento de infraestructura TI, soporte tecnico avanzado de 1er y 2do nivel, y gestion de incidencias. EN: IT infrastructure maintenance, advanced 1st and 2nd level technical support, and incident management."
         ]
       },
       {
         "id": "3",
-        "dates": "2024 - Presente",
-        "type": "Laboratorio y Formacion Continua",
-        "position": "Especializacion en Ciberseguridad y Sistemas",
-        "company": "Proyectos Personales / Certificaciones",
-        "location": "Remoto",
+        "dates": "Julio 2025 - Noviembre 2025",
+        "type": "Tiempo Completo",
+        "position": "Analista de IT y Sistemas",
+        "company": "San Cosme",
+        "location": "Queretaro, Mexico",
         "bullets": [
-          "ES: Practicas en Dockerlabs para emulacion de escenarios ofensivos y defensivos de seguridad. EN: Dockerlabs practice for offensive and defensive security scenario emulation.",
-          "ES: Evaluaciones de vulnerabilidad, incluyendo pruebas de inyeccion SQL y documentacion de mitigaciones. EN: Vulnerability assessments, including SQL injection testing and mitigation documentation.",
-          "ES: Dominio de entornos Linux (Fedora, Arch Linux, Pop!_OS, Garuda) y configuracion de firmware/hardware (Klipper). EN: Advanced Linux environments and firmware/hardware configuration (Klipper).",
-          "ES: Aplicacion de conceptos EDR/XDR y administracion de redes en contextos operativos. EN: Application of EDR/XDR concepts and network administration in operational contexts."
+          "ES: Administracion de bases de datos criticas y validacion de redes corporativas (LAN, Wi-Fi). EN: Management of critical databases and validation of corporate networks (LAN, Wi-Fi).",
+          "ES: Implementacion de protocolos de seguridad, gestion de perfiles de usuario y proteccion de la informacion. EN: Implementation of security protocols, user profile management, and information protection."
+        ]
+      },
+      {
+        "id": "4",
+        "dates": "Febrero 2024 - Abril 2025",
+        "type": "Tiempo Completo",
+        "position": "Analista de Procesos Tecnicos y Control Operativo",
+        "company": "Hydrocon",
+        "location": "Queretaro, Mexico",
+        "bullets": [
+          "ES: Monitoreo de variables criticas de proceso y aseguramiento normativo. EN: Monitoring of critical process variables and regulatory compliance.",
+          "ES: Gestion de control documental en bitacoras digitales para trazabilidad operativa. EN: Document control management in digital logs for operational traceability."
+        ]
+      },
+      {
+        "id": "5",
+        "dates": "Mayo 2023 - Octubre 2023",
+        "type": "Tiempo Completo",
+        "position": "Especialista en Aseguramiento de Calidad y Cumplimiento Normativo",
+        "company": "GRUPO SID",
+        "location": "Queretaro, Mexico",
+        "bullets": [
+          "ES: Gestion de control de calidad de producto y validacion de estandares. EN: Product quality control management and standards validation.",
+          "ES: Manejo de incidencias (NCR) y actualizacion de manuales de procedimientos operativos. EN: Incident management (NCR) and updating operational procedure manuals."
         ]
       }
     ],
     "education": [
       {
         "id": "1",
-        "universityName": "4Geeks Academy",
-        "universityDate": "Diciembre 2024 - Mayo 2025",
-        "universityLocation": "Remoto, LATAM",
-        "universityPara": "Formacion principal en Desarrollo Full Stack (con respaldo de University of Florida)."
+        "universityName": "UTEQ",
+        "universityDate": "Septiembre 2019 - Agosto 2022",
+        "universityLocation": "Queretaro, Mexico",
+        "universityPara": "Tecnico Superior Universitario, Quimica Ambiental"
       },
       {
         "id": "2",
-        "universityName": "Universidad Tecnológica de Querétaro",
-        "universityDate": "Septiembre 2020 - Febrero 2023",
-        "universityLocation": "Querétaro, México",
-        "universityPara": "Ingenieria Quimica"
+        "universityName": "Interline",
+        "universityDate": "Mayo 2024 - Diciembre 2025",
+        "universityLocation": "Remoto",
+        "universityPara": "Ingenieria, Chemical Engineering"
       },
       {
         "id": "3",
-        "universityName": "Diplomados y Credenciales",
-        "universityDate": "2024 - Presente",
-        "universityLocation": "Mexico / Remoto",
-        "universityPara": "Diplomados y credenciales en Ciberseguridad y Tecnologias de la Informacion."
+        "universityName": "4Geeks Academy Latam",
+        "universityDate": "Diciembre 2024 - Mayo 2025",
+        "universityLocation": "Remoto, LATAM",
+        "universityPara": "Desarrollo Full Stack, Programacion Informatica (con respaldo de University of Florida)"
       }
     ],
     "languages": [
-      "Español - Nativo",
-      "Inglés - B1 Intermedio",
-      "Francés - B1 Intermedio"
+      "Espanol - Nativo",
+      "Ingles - Intermedio"
     ],
     "frameworks": [
       "React.js",
       "Flask",
       "Bootstrap",
       "SQLAlchemy",
-      "Power BI"
+      "Power BI",
+      "SiteScope",
+      "OBM"
     ],
     "programmingLanguages": [
       "JavaScript",
       "Python",
       "HTML",
       "CSS",
-      "SQL"
+      "SQL",
+      "JSON",
+      "XML"
     ],
     "technologies": [
-      "JSON Web Token (JWT)",
+      "SAP Basis",
       "RESTful APIs",
       "Git",
       "GitHub",
-      "Jest",
-      "Dockerlabs",
-      "EDR/XDR",
-      "Oracle"
+      "Linux",
+      "Windows Server",
+      "Wazuh",
+      "SIEM",
+      "OWASP Top 10",
+      "SNMP",
+      "WMI",
+      "SSH",
+      "Docker",
+      "Oracle",
+      "CMDB"
     ],
     "others": [
+      "Ciberseguridad (SOC)",
+      "Hardening Linux",
+      "Analisis de Vulnerabilidades",
+      "Automatizacion Defensiva",
+      "Networking TCP/IP",
+      "TryHackMe",
+      "CTFs",
+      "Dockerlabs",
       "Microsoft 365",
-      "Oracle Simphony",
       "Power Automate",
-      "SharePoint",
-      "Entra ID",
-      "ERP/WMS",
-      "Network Administration",
-      "Klipper Firmware"
+      "SharePoint"
     ]
   }
 }

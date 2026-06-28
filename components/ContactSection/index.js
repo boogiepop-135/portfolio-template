@@ -1,5 +1,3 @@
-import React from "react";
-
 const ContactSection = ({ socials }) => {
   return (
     <div className="py-16 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 text-gray-900 dark:text-white">

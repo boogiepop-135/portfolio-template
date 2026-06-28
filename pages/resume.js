@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Cursor from "../components/Cursor";
 import Header from "../components/Header";
@@ -6,9 +6,7 @@ import ProjectResume from "../components/ProjectResume";
 import Socials from "../components/Socials";
 import Button from "../components/Button";
 import { useTheme } from "next-themes";
-// Data
-import { name, showResume } from "../data/portfolio.json";
-import { resume } from "../data/portfolio.json";
+import { name, showResume, resume } from "../data/portfolio.json";
 import data from "../data/portfolio.json";
 
 const Resume = () => {
@@ -57,14 +55,16 @@ const Resume = () => {
                 <h1 className="text-2xl font-bold">Experience / Experiencia</h1>
 
                 {resume.experiences.map(
-                  ({ id, dates, type, position, bullets }) => (
+                  ({ id, dates, type, position, company, location, bullets }) => (
                     <ProjectResume
                       key={id}
                       dates={dates}
                       type={type}
                       position={position}
+                      company={company}
+                      location={location}
                       bullets={bullets}
-                    ></ProjectResume>
+                    />
                   )
                 )}
               </div>

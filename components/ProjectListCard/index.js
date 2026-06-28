@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProjectListCard = ({ project, index }) => {
   return (
     <div className="mb-8 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border-l-4 border-blue-500 hover:border-purple-500">

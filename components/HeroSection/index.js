@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from "react";
 import FloatingParticles from "../FloatingParticles";
 import TypewriterText from "../TypewriterText";
 
 const HeroSection = ({ data }) => {
   const texts = [
     "Desarrollador Full Stack",
-    "Especialista en React & Python",
-    "Experto en Automatización",
-    "Desarrollador de Chatbots IA",
-    "Creador de Soluciones Digitales"
+    "Systems & Cybersecurity Specialist",
+    "React & Python Engineer",
+    "Automation & DevOps",
+    "Full Stack Developer"
   ];
 
   return (

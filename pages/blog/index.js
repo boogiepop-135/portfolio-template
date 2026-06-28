@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Router, { useRouter } from "next/router";
-import { useEffect, useRef, useState } from "react";
+import Router from "next/router";
+import { useRef, useState } from "react";
 import { stagger } from "../../animations";
 import Button from "../../components/Button";
 import Cursor from "../../components/Cursor";

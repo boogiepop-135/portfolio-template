@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const TypewriterText = ({ texts, className = "" }) => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);

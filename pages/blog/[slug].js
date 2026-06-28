@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { getPostBySlug, getAllPosts } from "../../utils/api";
 import Header from "../../components/Header";
 import ContentSection from "../../components/ContentSection";

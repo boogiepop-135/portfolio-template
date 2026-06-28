@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Button from "../components/Button";
 import Header from "../components/Header";
 import { v4 as uuidv4 } from "uuid";
@@ -54,8 +54,7 @@ const Edit = () => {
   };
 
   const deleteProject = (id) => {
-    const copyProjects = data.projects;
-    copyProjects = copyProjects.filter((project) => project.id !== id);
+    const copyProjects = data.projects.filter((project) => project.id !== id);
     setData({ ...data, projects: copyProjects });
   };
 
@@ -664,66 +663,62 @@ const Edit = () => {
             <hr className="my-10"></hr>
             <div className="mt-10">
               <h1>Education</h1>
-              <div className="flex items-center mt-5">
-                <label className="w-1/5 text-lg opacity-50">Name</label>
-                <input
-                  value={data.resume.education.universityName}
-                  onChange={(e) =>
-                    setData({
-                      ...data,
-                      resume: {
-                        ...data.resume,
-                        education: {
-                          ...data.resume.education,
-                          universityName: e.target.value,
-                        },
-                      },
-                    })
-                  }
-                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
-                  type="text"
-                ></input>
-              </div>
-              <div className="flex items-center mt-5">
-                <label className="w-1/5 text-lg opacity-50">Dates</label>
-                <input
-                  value={data.resume.education.universityDate}
-                  onChange={(e) =>
-                    setData({
-                      ...data,
-                      resume: {
-                        ...data.resume,
-                        education: {
-                          ...data.resume.education,
-                          universityDate: e.target.value,
-                        },
-                      },
-                    })
-                  }
-                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
-                  type="text"
-                ></input>
-              </div>
-              <div className="flex items-center mt-5">
-                <label className="w-1/5 text-lg opacity-50">Detail</label>
-                <input
-                  value={data.resume.education.universityPara}
-                  onChange={(e) =>
-                    setData({
-                      ...data,
-                      resume: {
-                        ...data.resume,
-                        education: {
-                          ...data.resume.education,
-                          universityPara: e.target.value,
-                        },
-                      },
-                    })
-                  }
-                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
-                  type="text"
-                ></input>
-              </div>
+              {data.resume.education.map((edu, index) => (
+                <div key={edu.id || index} className="mt-5 p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+                  <div className="flex items-center mt-5">
+                    <label className="w-1/5 text-lg opacity-50">Name</label>
+                    <input
+                      value={edu.universityName}
+                      onChange={(e) => {
+                        const copy = [...data.resume.education];
+                        copy[index] = { ...copy[index], universityName: e.target.value };
+                        setData({ ...data, resume: { ...data.resume, education: copy } });
+                      }}
+                      className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                      type="text"
+                    />
+                  </div>
+                  <div className="flex items-center mt-5">
+                    <label className="w-1/5 text-lg opacity-50">Dates</label>
+                    <input
+                      value={edu.universityDate}
+                      onChange={(e) => {
+                        const copy = [...data.resume.education];
+                        copy[index] = { ...copy[index], universityDate: e.target.value };
+                        setData({ ...data, resume: { ...data.resume, education: copy } });
+                      }}
+                      className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                      type="text"
+                    />
+                  </div>
+                  <div className="flex items-center mt-5">
+                    <label className="w-1/5 text-lg opacity-50">Location</label>
+                    <input
+                      value={edu.universityLocation || ""}
+                      onChange={(e) => {
+                        const copy = [...data.resume.education];
+                        copy[index] = { ...copy[index], universityLocation: e.target.value };
+                        setData({ ...data, resume: { ...data.resume, education: copy } });
+                      }}
+                      className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                      type="text"
+                    />
+                  </div>
+                  <div className="flex items-center mt-5">
+                    <label className="w-1/5 text-lg opacity-50">Detail</label>
+                    <input
+                      value={edu.universityPara}
+                      onChange={(e) => {
+                        const copy = [...data.resume.education];
+                        copy[index] = { ...copy[index], universityPara: e.target.value };
+                        setData({ ...data, resume: { ...data.resume, education: copy } });
+                      }}
+                      className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              ))}
             </div>
             <hr className="my-10"></hr>
             <div className="mt-10">

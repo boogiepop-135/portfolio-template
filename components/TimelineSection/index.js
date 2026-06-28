@@ -1,5 +1,3 @@
-import React from "react";
-
 const TimelineSection = ({ experiences }) => {
   return (
     <div className="py-16 bg-white dark:bg-gray-900">

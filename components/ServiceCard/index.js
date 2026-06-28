@@ -1,14 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
-
 const ServiceCard = ({ name, description }) => {
-  const { theme } = useTheme();
-  const [mounted, setMounted] = useState();
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   return (
     <div className="group relative p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-600 overflow-hidden">
       {/* Background gradient effect */}
